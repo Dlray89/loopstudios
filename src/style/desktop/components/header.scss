@@ -1,0 +1,21 @@
+.home-header{
+    background-image: url("../../images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    background-position: center;
+    height: 50em;
+    padding: 2em 15em;
+
+
+
+    &__content {
+        margin-top: 2.5em;
+        border: solid 2px white;
+        display: inline-block;
+        font-size: 5em;
+        text-transform: uppercase;
+        width: 45%;
+        padding: .5em .5em;
+
+    }
+}

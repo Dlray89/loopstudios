@@ -1,0 +1,15 @@
+//PAGES
+@import './desktop/pages/home.scss';
+
+//COMPONENTS
+@import './desktop/components/nav.scss';
+@import './desktop/components/footer.scss';
+@import './desktop/components/header.scss';
+@import './desktop/components/home/main-content.scss';
+@import './desktop/components/home/our-creation-list.scss';
+
+//UTILS
+@import './desktop/utils/animations.scss';
+@import './desktop/utils/mixins.scss';
+@import './desktop/utils/reset.scss';
+@import './desktop/utils/variables.scss';

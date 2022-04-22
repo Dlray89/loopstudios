@@ -1,0 +1,44 @@
+.main-content {
+    margin: 10em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 77%;
+
+
+    &__img-box {
+        margin-right: auto;
+
+        &--img {
+            width: 60em;
+
+        }
+
+    }
+
+    &__content{
+        padding: 4em 8em;
+        position:absolute;
+        margin-top: auto;
+        background-color: white;
+        width: 33%;
+        left: 49%;
+        top: 137.2%;
+
+
+        &--title {
+            color: black;
+            font-size: 3.7em;
+            text-transform: uppercase;
+            margin-bottom: .5em;
+
+        }
+
+        &--subtext{
+            color: black;
+            font-size: 1.5em;
+
+        }
+    }
+}
