@@ -8,7 +8,7 @@ export const OurCreationList = () => {
     return (
         <>
             <div className="creation-header">
-                <h3 className="creation-header__title">Our Creations</h3>
+                <p className="creation-header__title">Our Creations</p>
                 <button className="creation-header__btn">See All</button>
             </div>
 
