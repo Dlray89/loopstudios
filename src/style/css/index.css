@@ -265,6 +265,50 @@
     background-color: transparent;
     border: none;
   }
+  .nav__mobile-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 99.9%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+  .nav__mobile-nav__mobile-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav__mobile-nav__mobile-box__logo-box-img {
+    margin-top: -65%;
+    width: 50%;
+    padding: 1em 1em;
+  }
+  .nav__mobile-nav__mobile-box__cancel-btn {
+    margin-top: -65%;
+    width: 20%;
+    text-align: center;
+  }
+  .nav__mobile-nav__mobile-box__cancel-btn--btn {
+    background-color: transparent;
+    border: none;
+  }
+  .nav__mobile-nav__links-box {
+    text-align: left;
+    margin: 2em 1em;
+  }
+  .nav__mobile-nav__links-box--link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 2em;
+    margin-bottom: 1em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+  }
 }
 @media (max-width: 390px) {
   .nav {
@@ -301,6 +345,50 @@
   .nav__links-box-mobile__btn {
     background-color: transparent;
     border: none;
+  }
+  .nav__mobile-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 99.9%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+  .nav__mobile-nav__mobile-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav__mobile-nav__mobile-box__logo-box-img {
+    margin-top: -65%;
+    width: 50%;
+    padding: 1em 1em;
+  }
+  .nav__mobile-nav__mobile-box__cancel-btn {
+    margin-top: -65%;
+    width: 20%;
+    text-align: center;
+  }
+  .nav__mobile-nav__mobile-box__cancel-btn--btn {
+    background-color: transparent;
+    border: none;
+  }
+  .nav__mobile-nav__links-box {
+    text-align: left;
+    margin: 2em 1em;
+  }
+  .nav__mobile-nav__links-box--link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 2em;
+    margin-bottom: 1em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
   }
 }
 @keyframes underbar {
