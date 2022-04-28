@@ -350,7 +350,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 99.9%;
+    width: 100%;
     background-color: black;
     position: absolute;
     left: 0;
@@ -364,12 +364,12 @@
     align-items: center;
   }
   .nav__mobile-nav__mobile-box__logo-box-img {
-    margin-top: -65%;
+    margin-top: -60%;
     width: 50%;
     padding: 1em 1em;
   }
   .nav__mobile-nav__mobile-box__cancel-btn {
-    margin-top: -65%;
+    margin-top: -60%;
     width: 20%;
     text-align: center;
   }
