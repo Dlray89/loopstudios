@@ -54,7 +54,7 @@ export const Footer = () => {
                   
                 </div>
 
-                <p>Copyright 20211 Loopstudios. All rights reserved.</p>
+                <p className="footer__links-and-copyright__copyright-text">Copyright 20211 Loopstudios. All rights reserved.</p>
             </div>
         </div>
     )

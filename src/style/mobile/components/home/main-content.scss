@@ -18,7 +18,7 @@
     }
 
     &__content {
-      width: 100%;
+      width: 90%;
       padding: .5em .5em;
       position: relative;
       left: 0%;
@@ -68,10 +68,10 @@
     }
 
     &__content {
-      width: 100%;
-      padding: .5em .5em;
-      position: relative;
+      width: 90%;
       left: 0%;
+      top: 0;
+      border: solid 2px red;
 
       &--title {
         color: black;
