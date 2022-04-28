@@ -29,6 +29,23 @@
 .nav__links-box--link:hover {
   animation: underbar 0.5s ease-in both;
 }
+.nav__links-box-mobile {
+  display: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1em 1em;
+}
+.nav__links-box-mobile--link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  display: none;
+}
+.nav__links-box-mobile--link:hover {
+  animation: underbar 0.5s ease-in both;
+}
 
 @keyframes underbar {
   0% {
@@ -217,12 +234,13 @@
 @media (max-width: 430px) {
   .nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
   .nav__links-box {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
@@ -237,14 +255,24 @@
   }
   .nav__links-box--link:hover {
     animation: underbar 0.5s ease-in both;
+  }
+  .nav__links-box-mobile {
+    display: flex;
+    width: 10%;
+    padding: 0.5em 0.5em;
+  }
+  .nav__links-box-mobile__btn {
+    background-color: transparent;
+    border: none;
   }
 }
 @media (max-width: 390px) {
   .nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
   .nav__links-box {
     display: flex;
@@ -262,6 +290,17 @@
   }
   .nav__links-box--link:hover {
     animation: underbar 0.5s ease-in both;
+  }
+  .nav__links-box-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0.5em 0.5em;
+  }
+  .nav__links-box-mobile__btn {
+    background-color: transparent;
+    border: none;
   }
 }
 @keyframes underbar {

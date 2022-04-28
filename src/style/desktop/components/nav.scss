@@ -31,6 +31,29 @@
             }
         }
     }
+
+    &__links-box-mobile{
+        display: none;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 1em 1em;
+
+
+        &--link {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1em;
+            display: none;
+
+
+            &:hover{
+                animation: $loop-underbar-animation;
+            }
+        }
+
+}
 }
 
 
