@@ -1,0 +1,49 @@
+@media (max-width: 430px){
+
+    .home-header{
+        background-image: url("../../images/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%, cover;
+        background-position: center;
+        height: 40em;
+        padding: 1em 2em;
+    
+    
+    
+        &__content {
+            border: solid 2px white;
+            display: inline-block;
+            font-size: 3em;
+            text-transform: uppercase;
+            width: 90%;
+            padding: .5em .5em;
+    
+        }
+    }
+}
+
+
+
+@media (max-width: 390px){
+
+    .home-header{
+        background-image: url("../../images/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%, cover;
+        background-position: center;
+        height: 40em;
+        padding: 1em 2em;
+    
+    
+    
+        &__content {
+            border: solid 2px white;
+            display: inline-block;
+            font-size: 3em;
+            text-transform: uppercase;
+            width: 90%;
+            padding: .5em .5em;
+    
+        }
+    }
+}

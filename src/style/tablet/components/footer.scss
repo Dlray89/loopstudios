@@ -1,0 +1,56 @@
+@import '../utils/variables.scss';
+
+.footer{
+    background-color: $loop-black ;
+    padding: 5em 15em;
+    display: flex;
+    flex-direction: column;
+
+
+    &__img-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2em;
+
+
+        &__social-media-box{
+            width: 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+    
+        }
+    }
+
+
+    &__links-and-copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+        &__links-box {
+             width: 30%;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-between;
+    
+
+
+             &--link {
+                 display: inline-block;
+                 text-decoration: none;
+                 font-size: 1.3em;
+             }
+
+
+        }
+        
+    }
+
+
+   
+}

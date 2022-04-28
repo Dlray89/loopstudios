@@ -13,3 +13,20 @@
 @import './desktop/utils/mixins.scss';
 @import './desktop/utils/reset.scss';
 @import './desktop/utils/variables.scss';
+
+//mobile
+//PAGES
+@import './mobile/pages/home.scss';
+
+//COMPONENTS
+@import './mobile/components/nav.scss';
+@import './mobile/components/footer.scss';
+@import './mobile/components/header.scss';
+@import './mobile/components/home/main-content.scss';
+@import './mobile/components/home/our-creation-list.scss';
+
+//UTILS
+@import './mobile/utils/animations.scss';
+@import './mobile/utils/mixins.scss';
+@import './mobile/utils/reset.scss';
+@import './mobile/utils/variables.scss'; 

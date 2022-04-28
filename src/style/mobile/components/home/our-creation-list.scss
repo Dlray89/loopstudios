@@ -1,0 +1,118 @@
+@media (max-width: 430px) {
+
+  .creation-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  
+    &__img-box {
+      width: 95%;
+      margin: 0 auto;
+      &--img {
+        width: 100%;
+      }
+  
+      &--title {
+          font-size: 2.4em;
+          text-align: left;
+          width: 100%;
+          word-wrap:normal;
+          text-transform: uppercase;
+          left: 0;
+          bottom: 0%;
+          color: black;
+          margin-bottom: 1em;
+          margin-top: .2em;
+      }
+    }
+  }
+  
+  .creation-header {
+    margin: 3em auto;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    &__title {
+        color: black;
+        font-size: 2.3em;
+        text-transform: uppercase;
+    }
+  
+    &__btn {
+      margin-right: 0.8em;
+      padding: 1em 1em;
+      width: 10%;
+      color: black;
+      background-color: white;
+      font-weight: bold;
+      display: none;
+    }
+  }
+  
+}
+
+
+@media (max-width: 390px) {
+
+  .creation-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  
+    &__img-box {
+      width: 95%;
+      margin: 0 auto;
+      &--img {
+        width: 100%;
+      }
+  
+      &--title {
+          font-size: 2.4em;
+          text-align: left;
+          width: 100%;
+          word-wrap:normal;
+          text-transform: uppercase;
+          left: 0;
+          bottom: 0%;
+          color: black;
+          margin-bottom: 1em;
+          margin-top: .2em;
+      }
+    }
+  }
+  
+  .creation-header {
+    margin: 3em auto;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    &__title {
+        color: black;
+        font-size: 2.3em;
+        text-transform: uppercase;
+    }
+  
+    &__btn {
+      margin-right: 0.8em;
+      padding: 1em 1em;
+      width: 10%;
+      color: black;
+      background-color: white;
+      font-weight: bold;
+      display: none;
+    }
+  }
+  
+}

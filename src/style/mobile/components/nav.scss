@@ -1,0 +1,81 @@
+@import '../utils/variables.scss';
+
+
+@media (max-width: 430px){
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    
+        &__logo-box{
+    
+        }
+    
+        &__links-box{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                width: 100%;
+                padding: 1em 1em;
+    
+            &--link {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 1.1em;
+                display: none;
+    
+    
+                &:hover{
+                    animation: $loop-underbar-animation;
+                }
+            }
+        }
+    }
+    
+    
+    
+}
+
+
+@media (max-width: 390px){
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    
+        &__logo-box{
+    
+        }
+    
+        &__links-box{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                width: 100%;
+                padding: 1em 1em;
+    
+            &--link {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 1.1em;
+                display: none;
+    
+    
+                &:hover{
+                    animation: $loop-underbar-animation;
+                }
+            }
+        }
+    }
+    
+    
+    
+}

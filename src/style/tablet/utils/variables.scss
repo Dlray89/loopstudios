@@ -1,0 +1,17 @@
+@import './animations.scss';
+
+//colors
+$loop-white: hsl(0, 0%, 100%);
+$loop-black: hsl(0, 0%, 0%);
+$loop-dark-gray: hsl(0, 0%, 55%);
+$loop-very-dark-grey: hsl(0, 0%, 41%);
+
+
+
+//font
+$loop-alata-font: 'Alata', sans-serif;
+$loop-josefin-font: 'Josefin Sans', sans-serif;
+
+
+//animations
+$loop-underbar-animation: underbar 0.5s ease-in both;

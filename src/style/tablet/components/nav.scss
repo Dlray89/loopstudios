@@ -1,0 +1,36 @@
+@import '../utils/variables.scss';
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &__logo-box{
+
+    }
+
+    &__links-box{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 35%;
+            padding: 1em 1em;
+
+        &--link {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.3em;
+            padding-bottom: .2em;
+
+
+            &:hover{
+                animation: $loop-underbar-animation;
+            }
+        }
+    }
+}
+
+
